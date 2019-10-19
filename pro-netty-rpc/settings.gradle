@@ -1,0 +1,6 @@
+rootProject.name = 'pro-netty-rpc'
+includeFlat 'pro-user-impl'
+includeFlat 'pro-user-api'
+includeFlat 'pro-netty-consumer'
+includeFlat 'pro-basic'
+

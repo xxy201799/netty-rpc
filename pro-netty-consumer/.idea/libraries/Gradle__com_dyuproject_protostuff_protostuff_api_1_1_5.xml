@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.dyuproject.protostuff:protostuff-api:1.1.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dyuproject.protostuff/protostuff-api/1.1.5/93166da1fa4ca8c1f0d4bf55d51511f2650c7b05/protostuff-api-1.1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dyuproject.protostuff/protostuff-api/1.1.5/1526f45293f52496775542eead6114e71c6d1da0/protostuff-api-1.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

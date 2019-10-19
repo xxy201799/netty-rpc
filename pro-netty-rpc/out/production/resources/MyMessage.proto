@@ -1,0 +1,40 @@
+//定义包名
+package com.xxy.protobuf;
+
+//加快解析速度
+option optimize_for=SPEED;
+//java包名
+option java_package = "com.xxy.netty.transentity";
+
+//外部类名称
+option java_outer_classname = "TransEntity";
+
+message TransDataType{
+    enum DataType{
+        StudentType = 1;
+        DogType = 2;
+        CatType = 3;
+    }
+    required DataType data_type= 1;
+
+    oneof dataBody{
+        Student student = 2;
+        Dog dog = 3;
+        Cat cat = 4;
+    }
+}
+//定义内部类
+message Student{
+    optional string name = 1;
+    optional int32 age = 2;
+    optional string address = 3;
+}
+
+message Dog{
+    optional string name = 1;
+    optional int32 age = 2;
+}
+message Cat{
+    optional string name = 1;
+    optional string city = 2;
+}

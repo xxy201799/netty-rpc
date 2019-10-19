@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.curator:curator-client:2.4.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.curator/curator-client/2.4.2/7baed474acac129c34ee1a9deecc61af1280e02d/curator-client-2.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.curator/curator-client/2.4.2/51e5f6361086889b6d2fc470e3a2ee98a61e7a18/curator-client-2.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

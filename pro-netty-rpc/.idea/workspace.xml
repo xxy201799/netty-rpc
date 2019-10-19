@@ -1,0 +1,2651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c94e9b78-704a-4678-a136-fa33f1fdd386" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxy/netty/annotation/Remote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xxy/netty/annotation/RemoteInvoke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxy/netty/client/DefaultFuture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxy/netty/client/NettyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxy/netty/client/TcpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxy/netty/constant/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxy/netty/constant/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxy/netty/factory/ZookeeperFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxy/netty/factory/ZookeeperFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxy/netty/handler/SimpleClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxy/netty/handler/SimpleServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxy/netty/init/NettyInitial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxy/netty/init/NettyInitial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxy/netty/medium/InitalMedium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxy/netty/medium/InitalMedium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxy/netty/request/ClientRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxy/netty/server/NettyServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxy/netty/server/SpringServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxy/netty/util/RpcDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxy/netty/util/RpcDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxy/user/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxy/user/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxy/user/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/xxy/netty/TestTcp.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path=".idea/encodings.xml" />
+    <ignored path=".idea/gradle.xml" />
+    <ignored path=".idea/misc.xml" />
+    <ignored path=".idea/thriftCompiler.xml" />
+    <ignored path=".idea/uiDesigner.xml" />
+    <ignored path=".idea/vcs.xml" />
+    <ignored path="$PROJECT_DIR$/../pro-user-api/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../pro-user-api/build/" />
+    <ignored path="$PROJECT_DIR$/../pro-user-api/out/" />
+    <ignored path="$PROJECT_DIR$/../pro-netty-consumer/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../pro-netty-consumer/build/" />
+    <ignored path="$PROJECT_DIR$/../pro-netty-consumer/out/" />
+    <ignored path="$PROJECT_DIR$/pro-user-core/.gradle/" />
+    <ignored path="$PROJECT_DIR$/pro-user-core/build/" />
+    <ignored path="$PROJECT_DIR$/pro-user-core/out/" />
+    <ignored path="$PROJECT_DIR$/pro-netty-core/.gradle/" />
+    <ignored path="$PROJECT_DIR$/pro-netty-core/build/" />
+    <ignored path="$PROJECT_DIR$/pro-netty-core/out/" />
+    <ignored path="$PROJECT_DIR$/../pro-user-core/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../pro-user-core/build/" />
+    <ignored path="$PROJECT_DIR$/../pro-user-core/out/" />
+    <ignored path="$PROJECT_DIR$/../pro-basic/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../pro-basic/build/" />
+    <ignored path="$PROJECT_DIR$/../pro-basic/out/" />
+    <ignored path="$PROJECT_DIR$/../pro-ne/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../pro-ne/build/" />
+    <ignored path="$PROJECT_DIR$/../pro-netty-/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../pro-netty-/build/" />
+    <ignored path="$PROJECT_DIR$/../pro-netty-consume/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../pro-netty-consume/build/" />
+    <ignored path="$PROJECT_DIR$/../pro-/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../pro-/build/" />
+    <ignored path="$PROJECT_DIR$/../pro-user-impl/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../pro-user-impl/build/" />
+    <ignored path="$PROJECT_DIR$/../pro-user-impl/out/" />
+    <ignored path="$PROJECT_DIR$/../pro-netty-r/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../pro-netty-r/build/" />
+    <ignored path="$PROJECT_DIR$/../pro-user-impl/pro-netty-rpc/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../pro-user-impl/pro-netty-rpc/build/" />
+    <ignored path="$PROJECT_DIR$/../pro-user-impl/pro-/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../pro-user-impl/pro-/build/" />
+    <ignored path="$PROJECT_DIR$/../pro-user-impl/pro-user-api/.gradle/" />
+    <ignored path="$PROJECT_DIR$/../pro-user-impl/pro-user-api/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../pro-basic">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../pro-netty-consumer">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/pro-user-core">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../pro-user-api">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../pro-user-impl">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/pro-user-core">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../pro-user-impl/pro-user-api">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../pro-user-impl/pro-netty-rpc">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../pro-user-impl">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/../pro-basic">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-basic" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-basic" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-basic" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-basic" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-basic" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-basic" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-basic" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-netty-rpc" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-netty-rpc" type="f1a62948:ProjectNode" />
+                <item name=":pro-netty-consumer" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-netty-rpc" type="f1a62948:ProjectNode" />
+                <item name=":pro-netty-consumer" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-netty-rpc" type="f1a62948:ProjectNode" />
+                <item name=":pro-netty-consumer" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pro-netty-rpc" type="f1a62948:ProjectNode" />
+                <item name=":pro-netty-consumer" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1653734001">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gradle" value="2" />
+          <entry key="java" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Groovy" value="2" />
+          <entry key="JAVA" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gradle" value="13" />
+          <entry key="java" value="1339" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Groovy" value="13" />
+          <entry key="JAVA" value="1339" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="62294321">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gradle" value="35" />
+          <entry key="java" value="212" />
+          <entry key="md" value="1" />
+          <entry key="proto" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Groovy" value="35" />
+          <entry key="JAVA" value="212" />
+          <entry key="Markdown" value="1" />
+          <entry key="PROTO" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="17" />
+          <entry key="gradle" value="452" />
+          <entry key="java" value="6646" />
+          <entry key="md" value="287" />
+          <entry key="proto" value="48" />
+          <entry key="txt" value="163" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Groovy" value="452" />
+          <entry key="JAVA" value="6646" />
+          <entry key="Markdown" value="287" />
+          <entry key="PLAIN_TEXT" value="180" />
+          <entry key="PROTO" value="48" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/handler/ServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/request/ClientRequest.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/client/ServerWatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/init/NettyInitial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="62" column="152" selection-start-line="62" selection-start-column="152" selection-end-line="62" selection-end-column="152" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/constant/Constant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="58" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="7" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/request/ServerRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/zk/ZookeeperFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/factory/ZookeeperFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/client/TcpClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/client/ChannelManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>user</find>
+      <find>t</find>
+      <find>com.xxy.user.bean.User</find>
+      <find>请求超时====</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>T</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="D:\gradle-5.6.1" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="5.6.1" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="pro-netty-rpc" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="pro-netty-rpc" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":pro-basic" />
+                <option name="path" value="$PROJECT_DIR$/../pro-basic" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":pro-netty-consumer" />
+                <option name="path" value="$PROJECT_DIR$/../pro-netty-consumer" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":pro-user-api" />
+                <option name="path" value="$PROJECT_DIR$/../pro-user-api" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":pro-user-impl" />
+                <option name="path" value="$PROJECT_DIR$/../pro-user-impl" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="pro-user-core" />
+              <option name="path" value="$PROJECT_DIR$/pro-user-core" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="pro-user-core" />
+                <option name="path" value="$PROJECT_DIR$/pro-user-core" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$/../pro-basic">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':pro-basic'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':pro-basic'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':pro-basic'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':pro-basic'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':pro-basic'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':pro-basic'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':pro-basic'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':pro-basic'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:prepareKotlinBuildScriptModel" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':pro-basic'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-basic:properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pro-netty-consumer">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':pro-netty-consumer'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':pro-netty-consumer'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':pro-netty-consumer'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':pro-netty-consumer'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':pro-netty-consumer'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':pro-netty-consumer'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':pro-netty-consumer'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':pro-netty-consumer'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:prepareKotlinBuildScriptModel" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':pro-netty-consumer'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-netty-consumer:properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'pro-netty-rpc'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'pro-netty-rpc'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'pro-netty-rpc'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'pro-netty-rpc'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'pro-netty-rpc'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'pro-netty-rpc' (some of the displayed tasks may belong to subprojects)." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'pro-netty-rpc'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'pro-netty-rpc'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareKotlinBuildScriptModel" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'pro-netty-rpc'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pro-user-api">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':pro-user-api'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':pro-user-api'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':pro-user-api'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':pro-user-api'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':pro-user-api'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':pro-user-api'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':pro-user-api'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':pro-user-api'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:prepareKotlinBuildScriptModel" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':pro-user-api'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-api:properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pro-user-impl">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':pro-user-impl'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':pro-user-impl'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':pro-user-impl'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':pro-user-impl'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':pro-user-impl'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':pro-user-impl'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':pro-user-impl'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':pro-user-impl'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:prepareKotlinBuildScriptModel" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':pro-user-impl'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value=":pro-user-impl:properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pro-user-impl/pro-netty-rpc">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':pro-netty-rpc'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-netty-rpc" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':pro-netty-rpc'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-netty-rpc" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':pro-netty-rpc'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-netty-rpc" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':pro-netty-rpc'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-netty-rpc" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':pro-netty-rpc'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-netty-rpc" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-netty-rpc" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':pro-netty-rpc'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-netty-rpc" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-netty-rpc" />
+                <option name="name" value="prepareKotlinBuildScriptModel" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':pro-netty-rpc'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-netty-rpc" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':pro-netty-rpc'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-netty-rpc" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':pro-netty-rpc'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-netty-rpc" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pro-user-impl/pro-user-api">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':pro-user-api'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-user-api" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':pro-user-api'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-user-api" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':pro-user-api'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-user-api" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':pro-user-api'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-user-api" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':pro-user-api'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-user-api" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-user-api" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':pro-user-api'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-user-api" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-user-api" />
+                <option name="name" value="prepareKotlinBuildScriptModel" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':pro-user-api'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-user-api" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':pro-user-api'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-user-api" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':pro-user-api'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/../pro-user-impl/pro-user-api" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../pro-basic" value="4714029148186" />
+        <entry key="$PROJECT_DIR$/../pro-basic/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/../pro-basic/build.gradle" value="580933466" />
+        <entry key="$PROJECT_DIR$/../pro-basic/settings.gradle" value="414682598" />
+        <entry key="$PROJECT_DIR$/../pro-netty-consumer" value="4713854383267" />
+        <entry key="$PROJECT_DIR$/../pro-netty-consumer/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/../pro-netty-consumer/build.gradle" value="580933466" />
+        <entry key="$PROJECT_DIR$/../pro-netty-consumer/settings.gradle" value="2983324987" />
+        <entry key="$PROJECT_DIR$" value="23569213229036" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="76553825" />
+        <entry key="$PROJECT_DIR$/pro-netty-core/build.gradle" value="884630529" />
+        <entry key="$PROJECT_DIR$/pro-user-core" value="0" />
+        <entry key="$PROJECT_DIR$/pro-user-core/build.gradle" value="3758136022" />
+        <entry key="$PROJECT_DIR$/pro-user-core/settings.gradle" value="177016203" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="2438845258" />
+        <entry key="$PROJECT_DIR$/../pro-user-api" value="6285048683732" />
+        <entry key="$PROJECT_DIR$/../pro-user-api/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/../pro-user-api/build.gradle" value="3758136022" />
+        <entry key="$PROJECT_DIR$/../pro-user-api/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
+        <entry key="$PROJECT_DIR$/../pro-user-api/settings.gradle" value="241048431" />
+        <entry key="$PROJECT_DIR$/../pro-user-core/build.gradle" value="2770806818" />
+        <entry key="$PROJECT_DIR$/../pro-user-core/settings.gradle" value="177016203" />
+        <entry key="$PROJECT_DIR$/../pro-user-impl/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/../pro-user-impl/build.gradle" value="2190439620" />
+        <entry key="$PROJECT_DIR$/../pro-user-impl/settings.gradle" value="947040902" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/../pro-basic">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/../pro-basic" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/../pro-netty-consumer">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/../pro-netty-consumer" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/../pro-user-api">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/../pro-user-api" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/../pro-user-impl">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/../pro-user-impl" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="pro-netty-rpc" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="D:/gradle-5.6.1/src/announce" />
+                  <option value="D:/gradle-5.6.1/src/antlr" />
+                  <option value="D:/gradle-5.6.1/src/base-services" />
+                  <option value="D:/gradle-5.6.1/src/base-services-groovy" />
+                  <option value="D:/gradle-5.6.1/src/bootstrap" />
+                  <option value="D:/gradle-5.6.1/src/build-cache" />
+                  <option value="D:/gradle-5.6.1/src/build-cache-http" />
+                  <option value="D:/gradle-5.6.1/src/build-cache-packaging" />
+                  <option value="D:/gradle-5.6.1/src/build-comparison" />
+                  <option value="D:/gradle-5.6.1/src/build-init" />
+                  <option value="D:/gradle-5.6.1/src/build-option" />
+                  <option value="D:/gradle-5.6.1/src/build-profile" />
+                  <option value="D:/gradle-5.6.1/src/cli" />
+                  <option value="D:/gradle-5.6.1/src/code-quality" />
+                  <option value="D:/gradle-5.6.1/src/composite-builds" />
+                  <option value="D:/gradle-5.6.1/src/core" />
+                  <option value="D:/gradle-5.6.1/src/core-api" />
+                  <option value="D:/gradle-5.6.1/src/dependency-management" />
+                  <option value="D:/gradle-5.6.1/src/diagnostics" />
+                  <option value="D:/gradle-5.6.1/src/docs" />
+                  <option value="D:/gradle-5.6.1/src/ear" />
+                  <option value="D:/gradle-5.6.1/src/execution" />
+                  <option value="D:/gradle-5.6.1/src/file-collections" />
+                  <option value="D:/gradle-5.6.1/src/files" />
+                  <option value="D:/gradle-5.6.1/src/hashing" />
+                  <option value="D:/gradle-5.6.1/src/ide" />
+                  <option value="D:/gradle-5.6.1/src/ide-native" />
+                  <option value="D:/gradle-5.6.1/src/ide-play" />
+                  <option value="D:/gradle-5.6.1/src/installation-beacon" />
+                  <option value="D:/gradle-5.6.1/src/instant-execution" />
+                  <option value="D:/gradle-5.6.1/src/instant-execution-report" />
+                  <option value="D:/gradle-5.6.1/src/internal-android-performance-testing" />
+                  <option value="D:/gradle-5.6.1/src/internal-integ-testing" />
+                  <option value="D:/gradle-5.6.1/src/internal-performance-testing" />
+                  <option value="D:/gradle-5.6.1/src/internal-testing" />
+                  <option value="D:/gradle-5.6.1/src/ivy" />
+                  <option value="D:/gradle-5.6.1/src/jacoco" />
+                  <option value="D:/gradle-5.6.1/src/javascript" />
+                  <option value="D:/gradle-5.6.1/src/jvm-services" />
+                  <option value="D:/gradle-5.6.1/src/kotlin-dsl" />
+                  <option value="D:/gradle-5.6.1/src/kotlin-dsl-plugins" />
+                  <option value="D:/gradle-5.6.1/src/kotlin-dsl-provider-plugins" />
+                  <option value="D:/gradle-5.6.1/src/kotlin-dsl-test-fixtures" />
+                  <option value="D:/gradle-5.6.1/src/kotlin-dsl-tooling-builders" />
+                  <option value="D:/gradle-5.6.1/src/kotlin-dsl-tooling-models" />
+                  <option value="D:/gradle-5.6.1/src/language-groovy" />
+                  <option value="D:/gradle-5.6.1/src/language-java" />
+                  <option value="D:/gradle-5.6.1/src/language-jvm" />
+                  <option value="D:/gradle-5.6.1/src/language-native" />
+                  <option value="D:/gradle-5.6.1/src/language-scala" />
+                  <option value="D:/gradle-5.6.1/src/launcher" />
+                  <option value="D:/gradle-5.6.1/src/logging" />
+                  <option value="D:/gradle-5.6.1/src/maven" />
+                  <option value="D:/gradle-5.6.1/src/messaging" />
+                  <option value="D:/gradle-5.6.1/src/model-core" />
+                  <option value="D:/gradle-5.6.1/src/model-groovy" />
+                  <option value="D:/gradle-5.6.1/src/native" />
+                  <option value="D:/gradle-5.6.1/src/osgi" />
+                  <option value="D:/gradle-5.6.1/src/persistent-cache" />
+                  <option value="D:/gradle-5.6.1/src/pineapple" />
+                  <option value="D:/gradle-5.6.1/src/platform-base" />
+                  <option value="D:/gradle-5.6.1/src/platform-jvm" />
+                  <option value="D:/gradle-5.6.1/src/platform-native" />
+                  <option value="D:/gradle-5.6.1/src/platform-play" />
+                  <option value="D:/gradle-5.6.1/src/plugin-development" />
+                  <option value="D:/gradle-5.6.1/src/plugin-use" />
+                  <option value="D:/gradle-5.6.1/src/plugins" />
+                  <option value="D:/gradle-5.6.1/src/process-services" />
+                  <option value="D:/gradle-5.6.1/src/publish" />
+                  <option value="D:/gradle-5.6.1/src/reporting" />
+                  <option value="D:/gradle-5.6.1/src/resources" />
+                  <option value="D:/gradle-5.6.1/src/resources-gcs" />
+                  <option value="D:/gradle-5.6.1/src/resources-http" />
+                  <option value="D:/gradle-5.6.1/src/resources-s3" />
+                  <option value="D:/gradle-5.6.1/src/resources-sftp" />
+                  <option value="D:/gradle-5.6.1/src/scala" />
+                  <option value="D:/gradle-5.6.1/src/signing" />
+                  <option value="D:/gradle-5.6.1/src/snapshots" />
+                  <option value="D:/gradle-5.6.1/src/test-kit" />
+                  <option value="D:/gradle-5.6.1/src/testing-base" />
+                  <option value="D:/gradle-5.6.1/src/testing-junit-platform" />
+                  <option value="D:/gradle-5.6.1/src/testing-jvm" />
+                  <option value="D:/gradle-5.6.1/src/testing-native" />
+                  <option value="D:/gradle-5.6.1/src/tooling-api" />
+                  <option value="D:/gradle-5.6.1/src/tooling-api-builders" />
+                  <option value="D:/gradle-5.6.1/src/tooling-native" />
+                  <option value="D:/gradle-5.6.1/src/version-control" />
+                  <option value="D:/gradle-5.6.1/src/worker-processes" />
+                  <option value="D:/gradle-5.6.1/src/workers" />
+                  <option value="D:/gradle-5.6.1/src/wrapper" />
+                  <option value="D:/gradle-5.6.1/lib/ant-1.9.14.jar" />
+                  <option value="D:/gradle-5.6.1/lib/ant-launcher-1.9.14.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-api-metadata-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-base-services-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-base-services-groovy-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-bootstrap-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-build-cache-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-build-cache-packaging-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-build-option-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-cli-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-core-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-core-api-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-docs-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-execution-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-file-collections-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-files-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-hashing-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-installation-beacon-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-instant-execution-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-jvm-services-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-kotlin-dsl-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-kotlin-dsl-tooling-models-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-launcher-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-logging-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-messaging-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-model-core-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-model-groovy-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-native-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-persistent-cache-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-pineapple-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-process-services-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-resources-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-runtime-api-info-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-snapshots-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-tooling-api-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-worker-processes-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-wrapper-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-announce-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-antlr-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-build-cache-http-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-build-comparison-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-build-init-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-build-profile-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-code-quality-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-composite-builds-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-dependency-management-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-diagnostics-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-ear-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-ide-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-ide-native-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-ide-play-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-ivy-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-jacoco-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-javascript-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-kotlin-dsl-provider-plugins-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-kotlin-dsl-tooling-builders-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-language-groovy-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-language-java-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-language-jvm-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-language-native-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-language-scala-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-maven-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-osgi-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-platform-base-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-platform-jvm-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-platform-native-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-platform-play-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-plugin-development-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-plugin-use-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-plugins-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-publish-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-reporting-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-resources-gcs-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-resources-http-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-resources-s3-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-resources-sftp-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-scala-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-signing-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-test-kit-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-testing-base-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-testing-junit-platform-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-testing-jvm-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-testing-native-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-tooling-api-builders-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-tooling-native-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-version-control-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-workers-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/ivy-2.3.0.jar" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/pro-user-core" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/xxy/user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxy/user/remote/UserRemoteImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxy/netty/annotation/RemoteInvoke.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xxy/netty/TestTcp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xxy/netty/RemoteInvokingTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxy/netty/proxy/InvokeProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxy/netty/medium/InitalMedium.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxy/netty/client/DefaultFuture.java" />
+        <option value="$PROJECT_DIR$/../pro-user-api/src/main/java/com/xxy/user/bean/User.java" />
+        <option value="$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/response/Response.java" />
+        <option value="$PROJECT_DIR$/../pro-netty-consumer/src/test/java/TestTcp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxy/netty/client/SimpleClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxy/netty/client/TcpClient.java" />
+        <option value="$PROJECT_DIR$/../pro-netty-consumer/src/test/java/RemoteInvokingTest.java" />
+        <option value="$PROJECT_DIR$/../pro-netty-consumer/src/test/java/com/xxy/test/RemoteInvokingTest.java" />
+        <option value="$PROJECT_DIR$/../pro-user-api/src/main/java/com/xxy/user/remote/Response.java" />
+        <option value="$PROJECT_DIR$/../pro-user-core/src/main/java/com/xxy/netty/model/User.java" />
+        <option value="$PROJECT_DIR$/../pro-user-core/src/main/java/com/xxy/netty/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxy/user/remote/UserRemote.java" />
+        <option value="$PROJECT_DIR$/../pro-user-api/src/main/java/com/xxy/user/remote/UserRemote.java" />
+        <option value="$PROJECT_DIR$/../pro-user-core/src/main/java/com/xxy/netty/remote/UserRemoteImpl.java" />
+        <option value="$PROJECT_DIR$/../pro-basic/src/main/java/service/BasicService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxy/netty/server/SpringServer.java" />
+        <option value="$PROJECT_DIR$/../pro-basic/src/main/java/controller/BasicController.java" />
+        <option value="$PROJECT_DIR$/../pro-basic/src/main/java/com/xxy/BasicController.java" />
+        <option value="$PROJECT_DIR$/../pro-user-api/build.gradle" />
+        <option value="$PROJECT_DIR$/../pro-user-core/build.gradle" />
+        <option value="$PROJECT_DIR$/../pro-user-impl/settings.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/../pro-user-impl/src/main/java/com/xxy/netty/remote/UserRemoteImpl.java" />
+        <option value="$PROJECT_DIR$/../pro-user-impl/src/main/java/com/xxy/netty/service/UserService.java" />
+        <option value="$PROJECT_DIR$/../pro-netty-consumer/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/../pro-basic/src/main/java/com/xxy/service/BasicService.java" />
+        <option value="$PROJECT_DIR$/../pro-basic/build.gradle" />
+        <option value="$PROJECT_DIR$/../pro-user-impl/build.gradle" />
+        <option value="$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/proxy/InvokeProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxy/netty/handler/ServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxy/netty/util/RpcDecoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxy/netty/handler/SimpleServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxy/netty/bean/User.java" />
+        <option value="$PROJECT_DIR$/../pro-user-impl/src/main/java/com/xxy/netty/service/server/SpringServer.java" />
+        <option value="$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/constant/Constant.java" />
+        <option value="$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/zk/ZookeeperFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxy/netty/constant/Constant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxy/netty/factory/ZookeeperFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxy/netty/init/NettyInitial.java" />
+        <option value="$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/client/ServerWatcher.java" />
+        <option value="$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/client/ChannelManager.java" />
+        <option value="$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/client/TcpClient.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="205" />
+    <option name="y" value="25" />
+    <option name="width" value="1535" />
+    <option name="height" value="1010" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <sortByType ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xxy" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xxy" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="zk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-rpc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-rpc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-rpc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-rpc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-rpc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-rpc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="constant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-rpc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-rpc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-rpc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="init" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-rpc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-rpc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-rpc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-netty-rpc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pro-netty-rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pro-user-impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="s&#9;FILE&#9;file://D:/myproject/pro-netty-rpc/src/main/java/com/xxy/netty/request/ServerRequest.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571420072255" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pro-netty-consumer" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myproject\pro-user-core\src\main\java\com\xxy\netty\model" />
+      <recent name="D:\myproject\pro-netty-consumer\src\main\java\com\xxy" />
+      <recent name="D:\myproject\pro-netty-consumer\src\main\java\com\xxy\netty" />
+      <recent name="D:\myproject\pro-netty-consumer\src\main\java\com\xxy\netty\client" />
+      <recent name="D:\myproject\pro-user-api\src\main\java\com\xxy\user\remote" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xxy.netty.request" />
+      <recent name="com.xxy.netty.zk" />
+      <recent name="com.xxy.netty.factory" />
+      <recent name="com.xxy.netty.bean" />
+      <recent name="com.xxy.netty.service" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.xxy.netty.client" />
+      <recent name="com.xxy.netty.medium" />
+      <recent name="com.xxy.netty.server" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BasicController">
+    <configuration name="BasicController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xxy.controller.BasicController" />
+      <module name="pro-basic_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxy.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xxy.netty.service.server.SpringServer" />
+      <module name="pro-user-impl_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxy.netty.service.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xxy.netty.service.server.SpringServer" />
+      <module name="pro-netty-rpc_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxy.netty.service.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="pro-netty-rpc_test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pro-user-impl [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../pro-user-impl" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.SpringServer" />
+      <item itemvalue="Application.BasicController" />
+      <item itemvalue="Gradle.pro-user-impl [dependencies]" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.SpringServer (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BasicController" />
+        <item itemvalue="Application.SpringServer (1)" />
+        <item itemvalue="Application.SpringServer" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Gradle.pro-user-impl [dependencies]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c94e9b78-704a-4678-a136-fa33f1fdd386" name="Default Changelist" comment="" />
+      <created>1570546573537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570546573537</updated>
+      <workItem from="1570546578278" duration="7220000" />
+      <workItem from="1570717043112" duration="2984000" />
+      <workItem from="1570720672482" duration="746000" />
+      <workItem from="1570810053100" duration="26052000" />
+      <workItem from="1571072508550" duration="1615000" />
+      <workItem from="1571152024026" duration="4228000" />
+      <workItem from="1571236445737" duration="6401000" />
+      <workItem from="1571246435019" duration="10853000" />
+      <workItem from="1571360364628" duration="14068000" />
+    </task>
+    <task id="LOCAL-00001" summary="实现简单的zookeeper临时节点的创建与注册，以及netty服务端与客户端连接通信">
+      <created>1570721196643</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570721196643</updated>
+    </task>
+    <task id="LOCAL-00002" summary="实现客户端与服务端长连接以及数据安全采用并发编程工具包，实现心跳机制检测">
+      <created>1570886979566</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570886979566</updated>
+    </task>
+    <task id="LOCAL-00003" summary="增加客户端与服务器端方法调用，将实例传给服务端进行处理，实现spring+netty整合">
+      <created>1570900538780</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570900538780</updated>
+    </task>
+    <task id="LOCAL-00004" summary="增加protostuff进行对象传输">
+      <created>1571152119683</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571152119684</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RemoteInvokingTest_testSaveUser - 2019.10.17 at 01h 23m 24s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteInvokingTest_testSaveUser - 2019.10.17 at 01h 23m 47s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteInvokingTest_testSaveUser - 2019.10.17 at 01h 25m 25s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteInvokingTest_testSaveUser - 2019.10.17 at 01h 29m 20s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTcp_testSaveUser_(1) - 2019.10.17 at 01h 31m 40s.xml">
+      <configuration name="TestTcp.testSaveUser (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteInvokingTest_testSaveUser - 2019.10.17 at 01h 32m 01s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteInvokingTest_testSaveUser - 2019.10.17 at 01h 35m 27s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteInvokingTest_testSaveUser - 2019.10.17 at 01h 36m 38s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteInvokingTest_testSaveUser - 2019.10.17 at 01h 37m 15s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoteInvokingTest_testSaveUser - 2019.10.17 at 01h 39m 33s.xml">
+      <configuration name="RemoteInvokingTest.testSaveUser" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="74167000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Structure" order="0" sideWeight="0.5023585" side_tool="true" weight="0.20375335" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info active="true" content_ui="combo" x="46" y="92" width="304" height="474" id="Project" order="6" sideWeight="0.4976415" visible="true" weight="0.21715818" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.31444758" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="1.0" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="JProfiler" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="实现简单的zookeeper临时节点的创建与注册，以及netty服务端与客户端连接通信" />
+    <MESSAGE value="实现客户端与服务端长连接以及数据安全采用并发编程工具包，实现心跳机制检测" />
+    <MESSAGE value="增加客户端与服务器端方法调用，将实例传给服务端进行处理，实现spring+netty整合" />
+    <MESSAGE value="增加protostuff进行对象传输" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加protostuff进行对象传输" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../pro-netty-consumer/src/test/java/com/xxy/test/RemoteInvokingTest.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../pro-basic/src/main/java/com/xxy/service/BasicService.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/xxy/netty/util/RpcDecoder.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/proxy/InvokeProxy.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../pro-user-core/src/main/java/com/xxy/netty/service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/annotation/Remote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-user-core/src/main/java/com/xxy/netty/remote/UserRemoteImpl.java" />
+    <entry file="file://$PROJECT_DIR$/../pro-user-core/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/../pro-user-api/src/main/java/com/xxy/user/remote/UserRemote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-user-api/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-user-impl/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/response/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-user-impl/src/main/java/com/xxy/netty/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.7.RELEASE/1b08f5c49f9794a597455c280eff37acdb221d03/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="412" selection-start-line="412" selection-end-line="412" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.7.RELEASE/137e0820eaa164c5413c79700bb289f9c83d4d81/spring-context-4.3.7.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="1091" selection-start-line="1091" selection-end-line="1091" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-netty-consumer/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="26" column="5" selection-start-line="14" selection-start-column="3" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-basic/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/medium/InitalMedium.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-user-impl/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/client/DefaultFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/util/RpcEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dyuproject.protostuff/protostuff-core/1.1.5/1a3b660d8adcb4f4caa79004bc25ebc4326246c6/protostuff-core-1.1.5-sources.jar!/com/dyuproject/protostuff/ByteArrayInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-basic/src/main/java/com/xxy/controller/BasicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dyuproject.protostuff/protostuff-runtime/1.1.5/a1ef3a91c8ae8349973b41e56e6a60ee513f6b5e/protostuff-runtime-1.1.5-sources.jar!/com/dyuproject/protostuff/runtime/MappedSchema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dyuproject.protostuff/protostuff-core/1.1.5/1a3b660d8adcb4f4caa79004bc25ebc4326246c6/protostuff-core-1.1.5-sources.jar!/com/dyuproject/protostuff/IOUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dyuproject.protostuff/protostuff-core/1.1.5/1a3b660d8adcb4f4caa79004bc25ebc4326246c6/protostuff-core-1.1.5-sources.jar!/com/dyuproject/protostuff/ProtostuffIOUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-basic/src/main/java/com/xxy/service/BasicService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-user-api/src/main/java/com/xxy/user/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/util/SerializationUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/handler/SimpleServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="13" column="85" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-user-impl/src/main/java/com/xxy/netty/remote/UserRemoteImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-user-api/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/medium/Media.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-user-impl/src/main/java/com/xxy/netty/service/server/SpringServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/proxy/InvokeProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1204#1219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/util/RpcDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/client/DefaultFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-469">
+          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/client/TcpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/client/SimpleClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/util/ResponseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/request/ClientRequest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/handler/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/zk/ZookeeperFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/constant/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/constant/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="58" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/factory/ZookeeperFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/init/NettyInitial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="62" column="152" selection-start-line="62" selection-start-column="152" selection-end-line="62" selection-end-column="152" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxy/netty/request/ServerRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/client/ServerWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/client/ChannelManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pro-netty-consumer/src/main/java/com/xxy/netty/client/TcpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Bundled Protobuf Distribution</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>pro-netty-rpc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: com.alibaba:fastjson:1.2.20</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

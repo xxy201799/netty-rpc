@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a47a8767-0477-4fee-8278-727309ccd53d" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-679816907">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="D:\gradle-5.6.1" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="5.6.1" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="pro-netty-consumer" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="pro-netty-consumer" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'pro-netty-consumer'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'pro-netty-consumer'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'pro-netty-consumer'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'pro-netty-consumer'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'pro-netty-consumer'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'pro-netty-consumer'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'pro-netty-consumer'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'pro-netty-consumer'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareKotlinBuildScriptModel" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'pro-netty-consumer'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4713734950699" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="580933466" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="2983324987" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="pro-netty-consumer" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="D:/gradle-5.6.1/src/announce" />
+                  <option value="D:/gradle-5.6.1/src/antlr" />
+                  <option value="D:/gradle-5.6.1/src/base-services" />
+                  <option value="D:/gradle-5.6.1/src/base-services-groovy" />
+                  <option value="D:/gradle-5.6.1/src/bootstrap" />
+                  <option value="D:/gradle-5.6.1/src/build-cache" />
+                  <option value="D:/gradle-5.6.1/src/build-cache-http" />
+                  <option value="D:/gradle-5.6.1/src/build-cache-packaging" />
+                  <option value="D:/gradle-5.6.1/src/build-comparison" />
+                  <option value="D:/gradle-5.6.1/src/build-init" />
+                  <option value="D:/gradle-5.6.1/src/build-option" />
+                  <option value="D:/gradle-5.6.1/src/build-profile" />
+                  <option value="D:/gradle-5.6.1/src/cli" />
+                  <option value="D:/gradle-5.6.1/src/code-quality" />
+                  <option value="D:/gradle-5.6.1/src/composite-builds" />
+                  <option value="D:/gradle-5.6.1/src/core" />
+                  <option value="D:/gradle-5.6.1/src/core-api" />
+                  <option value="D:/gradle-5.6.1/src/dependency-management" />
+                  <option value="D:/gradle-5.6.1/src/diagnostics" />
+                  <option value="D:/gradle-5.6.1/src/docs" />
+                  <option value="D:/gradle-5.6.1/src/ear" />
+                  <option value="D:/gradle-5.6.1/src/execution" />
+                  <option value="D:/gradle-5.6.1/src/file-collections" />
+                  <option value="D:/gradle-5.6.1/src/files" />
+                  <option value="D:/gradle-5.6.1/src/hashing" />
+                  <option value="D:/gradle-5.6.1/src/ide" />
+                  <option value="D:/gradle-5.6.1/src/ide-native" />
+                  <option value="D:/gradle-5.6.1/src/ide-play" />
+                  <option value="D:/gradle-5.6.1/src/installation-beacon" />
+                  <option value="D:/gradle-5.6.1/src/instant-execution" />
+                  <option value="D:/gradle-5.6.1/src/instant-execution-report" />
+                  <option value="D:/gradle-5.6.1/src/internal-android-performance-testing" />
+                  <option value="D:/gradle-5.6.1/src/internal-integ-testing" />
+                  <option value="D:/gradle-5.6.1/src/internal-performance-testing" />
+                  <option value="D:/gradle-5.6.1/src/internal-testing" />
+                  <option value="D:/gradle-5.6.1/src/ivy" />
+                  <option value="D:/gradle-5.6.1/src/jacoco" />
+                  <option value="D:/gradle-5.6.1/src/javascript" />
+                  <option value="D:/gradle-5.6.1/src/jvm-services" />
+                  <option value="D:/gradle-5.6.1/src/kotlin-dsl" />
+                  <option value="D:/gradle-5.6.1/src/kotlin-dsl-plugins" />
+                  <option value="D:/gradle-5.6.1/src/kotlin-dsl-provider-plugins" />
+                  <option value="D:/gradle-5.6.1/src/kotlin-dsl-test-fixtures" />
+                  <option value="D:/gradle-5.6.1/src/kotlin-dsl-tooling-builders" />
+                  <option value="D:/gradle-5.6.1/src/kotlin-dsl-tooling-models" />
+                  <option value="D:/gradle-5.6.1/src/language-groovy" />
+                  <option value="D:/gradle-5.6.1/src/language-java" />
+                  <option value="D:/gradle-5.6.1/src/language-jvm" />
+                  <option value="D:/gradle-5.6.1/src/language-native" />
+                  <option value="D:/gradle-5.6.1/src/language-scala" />
+                  <option value="D:/gradle-5.6.1/src/launcher" />
+                  <option value="D:/gradle-5.6.1/src/logging" />
+                  <option value="D:/gradle-5.6.1/src/maven" />
+                  <option value="D:/gradle-5.6.1/src/messaging" />
+                  <option value="D:/gradle-5.6.1/src/model-core" />
+                  <option value="D:/gradle-5.6.1/src/model-groovy" />
+                  <option value="D:/gradle-5.6.1/src/native" />
+                  <option value="D:/gradle-5.6.1/src/osgi" />
+                  <option value="D:/gradle-5.6.1/src/persistent-cache" />
+                  <option value="D:/gradle-5.6.1/src/pineapple" />
+                  <option value="D:/gradle-5.6.1/src/platform-base" />
+                  <option value="D:/gradle-5.6.1/src/platform-jvm" />
+                  <option value="D:/gradle-5.6.1/src/platform-native" />
+                  <option value="D:/gradle-5.6.1/src/platform-play" />
+                  <option value="D:/gradle-5.6.1/src/plugin-development" />
+                  <option value="D:/gradle-5.6.1/src/plugin-use" />
+                  <option value="D:/gradle-5.6.1/src/plugins" />
+                  <option value="D:/gradle-5.6.1/src/process-services" />
+                  <option value="D:/gradle-5.6.1/src/publish" />
+                  <option value="D:/gradle-5.6.1/src/reporting" />
+                  <option value="D:/gradle-5.6.1/src/resources" />
+                  <option value="D:/gradle-5.6.1/src/resources-gcs" />
+                  <option value="D:/gradle-5.6.1/src/resources-http" />
+                  <option value="D:/gradle-5.6.1/src/resources-s3" />
+                  <option value="D:/gradle-5.6.1/src/resources-sftp" />
+                  <option value="D:/gradle-5.6.1/src/scala" />
+                  <option value="D:/gradle-5.6.1/src/signing" />
+                  <option value="D:/gradle-5.6.1/src/snapshots" />
+                  <option value="D:/gradle-5.6.1/src/test-kit" />
+                  <option value="D:/gradle-5.6.1/src/testing-base" />
+                  <option value="D:/gradle-5.6.1/src/testing-junit-platform" />
+                  <option value="D:/gradle-5.6.1/src/testing-jvm" />
+                  <option value="D:/gradle-5.6.1/src/testing-native" />
+                  <option value="D:/gradle-5.6.1/src/tooling-api" />
+                  <option value="D:/gradle-5.6.1/src/tooling-api-builders" />
+                  <option value="D:/gradle-5.6.1/src/tooling-native" />
+                  <option value="D:/gradle-5.6.1/src/version-control" />
+                  <option value="D:/gradle-5.6.1/src/worker-processes" />
+                  <option value="D:/gradle-5.6.1/src/workers" />
+                  <option value="D:/gradle-5.6.1/src/wrapper" />
+                  <option value="D:/gradle-5.6.1/lib/ant-1.9.14.jar" />
+                  <option value="D:/gradle-5.6.1/lib/ant-launcher-1.9.14.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-api-metadata-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-base-services-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-base-services-groovy-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-bootstrap-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-build-cache-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-build-cache-packaging-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-build-option-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-cli-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-core-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-core-api-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-docs-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-execution-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-file-collections-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-files-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-hashing-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-installation-beacon-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-instant-execution-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-jvm-services-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-kotlin-dsl-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-kotlin-dsl-tooling-models-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-launcher-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-logging-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-messaging-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-model-core-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-model-groovy-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-native-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-persistent-cache-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-pineapple-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-process-services-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-resources-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-runtime-api-info-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-snapshots-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-tooling-api-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-worker-processes-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/gradle-wrapper-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-announce-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-antlr-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-build-cache-http-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-build-comparison-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-build-init-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-build-profile-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-code-quality-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-composite-builds-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-dependency-management-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-diagnostics-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-ear-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-ide-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-ide-native-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-ide-play-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-ivy-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-jacoco-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-javascript-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-kotlin-dsl-provider-plugins-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-kotlin-dsl-tooling-builders-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-language-groovy-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-language-java-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-language-jvm-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-language-native-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-language-scala-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-maven-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-osgi-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-platform-base-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-platform-jvm-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-platform-native-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-platform-play-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-plugin-development-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-plugin-use-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-plugins-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-publish-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-reporting-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-resources-gcs-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-resources-http-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-resources-s3-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-resources-sftp-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-scala-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-signing-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-test-kit-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-testing-base-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-testing-junit-platform-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-testing-jvm-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-testing-native-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-tooling-api-builders-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-tooling-native-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-version-control-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/gradle-workers-5.6.1.jar" />
+                  <option value="D:/gradle-5.6.1/lib/plugins/ivy-2.3.0.jar" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="205" />
+    <option name="y" value="25" />
+    <option name="width" value="1535" />
+    <option name="height" value="1010" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pro-netty-rpc" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a47a8767-0477-4fee-8278-727309ccd53d" name="Default Changelist" comment="" />
+      <created>1571246387776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571246387776</updated>
+      <workItem from="1571246393175" duration="39000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
