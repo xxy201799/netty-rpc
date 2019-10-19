@@ -27,7 +27,6 @@ import java.util.Set;
 public class TcpClient {
     static final Bootstrap bootstrap = new Bootstrap();
     static  ChannelFuture channelFuture = null;
-    static  Set<String> realServerPath = new HashSet<>();
     static {
         EventLoopGroup eventLoopGroup = new NioEventLoopGroup();
         //childHandler针对服务端的workerHandler,而客户端不需要
@@ -51,9 +50,23 @@ public class TcpClient {
             CuratorWatcher watcher = new ServerWatcher();
             for (String serverPath : serverPaths) {
                 String[] str = serverPath.split("#");
-               realServerPath.add(str[0] + "#" + str[1]);
-                ChannelManager.clear();
-                ChannelManager.add(channelFuture);
+                int weight = Integer.valueOf(str[2]);
+                if(weight > 0){
+                    for(int w = 0; w <= weight; w++){
+                        ChannelManager.realServerPath.add(str[0] + "#" + str[1]);
+                        ChannelFuture channel = TcpClient.bootstrap.connect(str[0],Integer.valueOf(str[1]));
+                        ChannelManager.add(channel);
+                    }
+                }
+
+
+
+
+            }
+            if(ChannelManager.realServerPath.size() > 0){
+                String[] hostAndPort = ChannelManager.realServerPath.toArray()[0].toString().split("#");
+                host = hostAndPort[0];
+                port = Integer.valueOf(hostAndPort[1]);
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -66,7 +79,7 @@ public class TcpClient {
     }
 
 
-    static int i = 0;
+
     /**
      * 发送数据
      * 注意：
@@ -76,7 +89,7 @@ public class TcpClient {
      * @return
      */
     public static Response send(ClientRequest request){
-        channelFuture = ChannelManager.get(i);
+        channelFuture = ChannelManager.get(ChannelManager.position);
         channelFuture.channel().writeAndFlush(request);
         DefaultFuture df = new DefaultFuture(request);
         return  df.get(1000);
